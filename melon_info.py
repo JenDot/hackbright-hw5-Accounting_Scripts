@@ -8,11 +8,11 @@ from melons import (melon_names, melon_seedlessness, melon_prices, melon_flesh_c
 def print_melon(name, seedless, price, flesh, weight, rind):
     """Print each melon with corresponding attribute information."""
 
-    have_or_have_not = 'Not Seedless'
+    have_or_have_not = 'not seedless'
     if seedless:
-        have_or_have_not = 'Seedless'
+        have_or_have_not = 'seedless'
 
-    print(f'{name}s are {have_or_have_not} and cost ${price:.2f}')
+    print(f'{name}s are {have_or_have_not}, cost ${price: .2f}, have {flesh} flesh, weigh about {weight} pounds and have {rind} rind.')
 
 
 for i in melon_names:

@@ -40,8 +40,8 @@ melon_weight = {
 
 melon_rind_color = {
     1: 'Ivory Green',
-    2: 'Green, Orange Spots when ripe',
-    3: 'Green, Orange Spots when ripe',
+    2: 'Green w/ Orange Spots when ripe',
+    3: 'Green w/ Orange Spots when ripe',
     4: 'Yellow',
     5: 'Netted Skin',
 }
